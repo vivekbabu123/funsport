@@ -1,0 +1,1364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'poopins';
+    src: url(../font/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'poopins';
+    src: url(../font/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'poopins';
+    src: url(../font/Poppins-Thin.ttf);
+    font-weight: 100;
+}
+
+/* index html start */
+
+.img-fluid {
+    border-radius: 15px;
+}
+
+.menu_left {
+    font-weight: 300;
+    text-wrap: nowrap;
+}
+
+.menu_name {
+    font-weight: 600;
+}
+
+.nav_btn button {
+    margin: 0 5px;
+    font-weight: 400;
+    text-wrap: nowrap;
+}
+
+.nav_btn button:hover {
+    background-color: #FF9500;
+    color: black;
+}
+
+/* .futerehero {
+    background-image: url(../image/hero.png);
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+/* Style for the section */
+.funsportwaterpark {
+    position: relative;
+    overflow: hidden;
+    padding: 100px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.06);
+    /* Adjust the RGBA values for the dark overlay color and opacity */
+    z-index: 1;
+}
+
+.funsportwaterpark video {
+    position: relative;
+    z-index: 0;
+}
+
+/* Style for the video */
+.funsportwaterpark video {
+    object-fit: cover;
+}
+
+/* Style for the content */
+.futerehero {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    /* Adjust as needed */
+}
+
+
+
+.attraction_ope>div {
+    flex: 1;
+    text-align: center;
+}
+
+.attraction_ope h5,
+.get_dir button {
+    margin-bottom: 10px;
+}
+
+.nxt_ur h5 {
+    font-size: 15px;
+}
+
+.nxt_ur p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.open_hour h5 {
+    font-size: 15px;
+}
+
+.open_hour p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.tick_pr h5 {
+    font-size: 15px;
+}
+
+.tick_pr p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.evey_plan h5 {
+    font-size: 15px;
+}
+
+.evey_plan p {
+    font-size: 15px;
+}
+
+.vl {
+    border-left: 3px solid #ffffffa3;
+    height: 40px;
+}
+
+.vr {
+    border-left: 3px solid #ffffffa3;
+    height: 40px;
+}
+
+/* Add more styles as needed */
+
+.futerehero h2 {
+    color: #0000FF;
+    font-size: 45px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.futerehero p {
+    color: #0f0404;
+    font-size: 21px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.attraction_ope {
+    padding: 10px 0;
+    background-color: #FF9500;
+    border-radius: 50px;
+    z-index: 99;
+    position: relative;
+    margin-top: -25px;
+
+
+}
+
+.get_dir button {
+    border: 1px solid #000;
+}
+
+.owl-item .item {
+    transform: translate3d(0, 0, 0);
+    /* DO NOT REMEMBER WHERE TU PUT THIS, SEARCH FOR 3D ACCELERATION */
+    transform: scale(0.9);
+
+    transition: all .25s ease-in-out;
+    margin: 50px 0;
+    /* OVERWRITE PLUGIN MARGIN */
+}
+
+.screenshot_slider .owl-item .item img {
+    -webkit-transition: 0.3s;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.screenshot_slider .owl-item.center .item img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.screenshot_slider .owl-nav {
+    text-align: center;
+    margin: -20px 0;
+}
+
+.screenshot_slider .owl-nav button {
+    font-size: 24px !important;
+    margin: 10px;
+    color: #033aff !important;
+}
+
+.owl-carousel .owl-dots.disabled,
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.jh_heading_park {
+    padding: 20px;
+    background-color: #7CE38E;
+    border-radius: 10px;
+
+}
+
+.jh_heading_park h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #030303;
+}
+
+.jh_heading_park p {
+    padding: 0 60px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.jh_heading_park span {
+    color: #3164F4;
+}
+
+
+
+.heading_ride {
+    background-color: rgba(194, 194, 194, 0.21);
+    border-radius: 10px;
+}
+
+.owl-nav {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.kids_heading h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kids_heading p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.kids_heading button {
+    display: flex;
+    margin: 0 auto;
+}
+
+.yellow_item {
+    border-radius: 20px;
+}
+
+.rest_color {
+    background-color: rgba(194, 194, 194, 0.21);
+    border-radius: 10px;
+    padding: 30px 20px 0;
+
+}
+
+.restarunt_heading h4 {
+    font-weight: 500;
+}
+
+.restarunt_heading p {
+    font-size: 14px;
+}
+
+.flavour_heading h4 {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.plan_heading h4 {
+    font-weight: 600;
+}
+
+.user_plus {
+    background-color: #2877D0;
+}
+
+.user_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* Set the desired height for the buttons */
+}
+
+.user_btn button {
+    background-color: #CDDEF2;
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    height: 100%;
+}
+
+.user_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wekend_offer {
+    background-image: url(../image/wekendback\ \(1\).png);
+    height: 283px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.apply_tcktmow button {
+    background-color: #FF9500;
+}
+
+.apply_tcktmow p {
+    font-size: 10px;
+}
+
+.update_what {
+    background-color: rgba(194, 194, 194, 0.21);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new_something button {
+    background-color: #4CD964;
+}
+
+.singn_up button {
+    background-color: #fff;
+}
+
+.splash_back {
+    background-image: url(../image/splashstorie.png);
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.social_mediaheading h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.social_mediaicon img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.splash_heading h4 {
+    color: #030303;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.splash_heading p {
+    color: #030303;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.anmol_sucess {
+    text-align: end;
+}
+
+.anmol_write p {
+    font-size: 12px;
+}
+
+.exclusiveman {
+    background-color: rgba(194, 194, 194, 0.21);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.footer_nav {
+    background-color: #0000FF;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.footer_right ul {
+    list-style: none;
+}
+
+.footer_right ul li {
+    margin: 5px 0;
+}
+
+.footer_right ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* index html finish */
+/* sign_model start */
+.sign_intext a {
+    text-decoration: none;
+    color: #000;
+}
+
+.otp_get button {
+    background-color: #FF9500;
+    border: transparent;
+}
+
+.otp_get button:hover {
+    background-color: #FF9500;
+    border: transparent;
+}
+
+.social_btnmodal button {
+    border: 1px solid #000;
+}
+
+/* sign_model finish */
+
+/* attraction booking start */
+.funsport_work a {
+    text-decoration: none;
+    font-size: 24px
+}
+
+.attrac_book h1 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.bookspot_heading p {
+    font-weight: 300;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="number"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.booking_btn {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.booking_btn button {
+    background-color: #FF9500;
+
+}
+
+
+/* attraction booking finish */
+
+/* blog strat */
+.bg_hero {
+    background-image: url(../image/blogbg.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.blog_bg {
+    background-color: #3164F4;
+    opacity: 0.4;
+    margin: 60px 0;
+}
+
+.head_blog_item h2 {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.tastic_day h2 {
+    font-weight: 500;
+}
+
+.heading_waterplan {
+    border: 1px solid #3164F4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: -15px;
+    background-color: #fff;
+}
+
+.heading_waterplan a {
+    color: #FF9500;
+}
+
+.item_search button {
+    background-color: #FF9500;
+}
+
+.blog_number h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.blogcontent a {
+    color: #FF9500;
+}
+
+.page-item a {
+    border: none !important;
+}
+
+.blog_img img {
+    margin: 10px;
+}
+
+.similarartcle_heading h2 {
+    font-size: 72px;
+    font-weight: 500;
+}
+
+/* blog finish */
+/* privacypolicy start */
+.heading_heroprivacy h1 {
+    font-weight: 600;
+}
+
+.heading_heroprivacy p {
+    font-weight: 400;
+}
+
+.safty_first h2 {
+    color: #030303;
+    font-weight: 500;
+}
+
+.respect_other h2 {
+    color: #030303;
+    font-weight: 500;
+}
+
+.emergncy_proc h2 {
+    color: #030303;
+    font-weight: 500;
+}
+
+.sold_tckt p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.safty_first p {
+    color: #030303;
+    font-weight: 300;
+}
+
+.respect_other p {
+    color: #030303;
+    font-weight: 300;
+}
+
+.emergncy_proc p {
+    color: #030303;
+    font-weight: 300;
+}
+
+.about_blankpage {
+    background-color: #fff;
+    height: 400px;
+}
+
+.blue_footer {
+    background-color: #0000FF;
+    height: 100px;
+}
+
+/* privacy policy finish */
+
+/* ride collection start */
+.filter_adventurepark a {
+    border: 2px solid #18181a9c;
+    margin: 10px 10px;
+    font-weight: 300;
+    border-radius: 15px;
+}
+
+.boys_div {
+    background: url(../image/ridecollection/boyrain.svg) no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.boy_divheading h1 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-top: 250px;
+}
+
+.boy_divheading p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.boy_divheading button {
+    background: #FF9500;
+    font-weight: 800;
+    padding: 10px 30px;
+}
+
+.hash_coll {
+    position: relative;
+}
+
+.hash_coll h2::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+
+
+    transform: translateY(-50%);
+    width: 80px;
+    height: 80px;
+    background-color: #CDDEF2;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.giant_heading p {
+    font-size: 12px;
+}
+
+.giant_img img {
+
+    padding: 8px 0;
+}
+
+.ride_border {
+    border: 1px solid #3164F4;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.giant_view button {
+    background-color: #FF9500;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.body_spiralimg img {
+
+    padding: 8px 0;
+}
+
+.bodyspitxt p {
+    font-size: 12px;
+}
+
+.kids_pools h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.kids_pools span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.splash_tag img {
+    height: 150px;
+    object-fit: cover;
+}
+
+.splash_tag p {
+    font-weight: 800;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.redgirl_img h4 {
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+.redgirl_img p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.wavepool_img h2 {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.wavepool_img p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ride collection finish */
+
+
+/* Discoverrestaurant image start */
+.dining_vibrantimg {
+    background-image: url(../image/discoverrest/vibrant1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 10px;
+
+}
+
+.dining_vibrantimg h2 {
+    font-weight: 800;
+    color: #fff;
+    background-color: #98a2a986;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+.dining_vibrantimg button {
+    background-color: #FF9500;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+.vibrant_imgsho img {
+    width: 75%;
+    margin: 0 auto;
+
+}
+
+.txt_vibrant h5 {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 25px;
+}
+
+.chopati_img h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.chopati_img p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+/* discoverrestaurant image finish */
+.veg_group {
+    border: 1px solid #030303;
+    padding: 5px 30px;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+.btn-group .btn.active {
+    color: #030303;
+    background-color: #fff;
+
+}
+
+.veg::after {
+    content: "\2022";
+    /* bullet point */
+    color: green;
+    margin-right: 5px;
+}
+
+.nonveg::after {
+    content: "\2022";
+    /* bullet point */
+    color: red;
+    margin-right: 5px;
+}
+
+.img_txt p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-header {
+    border-bottom: 0px !important;
+}
+
+.load_more button {
+    border: 1px solid #030303;
+    border-radius: 8px;
+}
+
+/* Payment page start */
+.pay_bar a {
+    margin: 0 15px;
+}
+
+.pay_btn button {
+    border: 1px solid #18181a;
+    font-weight: 400;
+}
+
+.pay_btn button:hover {
+    background-color: #DC120F;
+    border: transparent;
+    color: #fff;
+}
+
+.confirm_heading h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.confirm_step1 p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.tckt_details p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Payment page finish */
+
+
+
+
+
+
+/* start media query */
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .futerehero h2 {
+        font-size: 33px;
+    }
+
+    .futerehero p {
+        font-size: 16px;
+    }
+
+    .attraction_ope {
+        white-space: nowrap;
+    }
+
+    .arrow_btn button {
+        padding: 0px;
+    }
+
+    .nxt_ur h5 {
+        font-size: 12px;
+    }
+
+    .nxt_ur p {
+        font-size: 10px;
+    }
+
+    .open_hour h5 {
+        font-size: 12px;
+    }
+
+    .open_hour p {
+        font-size: 10px;
+    }
+
+    .tick_pr h5 {
+        font-size: 12px;
+    }
+
+    .tick_pr p {
+        font-size: 10px;
+    }
+
+    .evey_plan h5 {
+        font-size: 12px;
+    }
+
+    .evey_plan p {
+        font-size: 10px;
+    }
+
+    .jh_heading_park h2 {
+        font-size: 22px;
+    }
+
+    .jh_heading_park p {
+        font-size: 12px;
+    }
+
+    .kids_heading p {
+        font-size: 11px;
+    }
+
+    .restarunt_heading p {
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+    .user_btn button {
+        font-size: 9px;
+    }
+
+    .social_mediaheading h2 {
+        font-size: 16px;
+    }
+
+    .new_something p {
+        font-size: 12px;
+    }
+
+    .new_something button {
+        text-wrap: nowrap;
+        font-size: 10px;
+
+    }
+
+    .splash_heading h4 {
+        font-size: 18px;
+    }
+
+    .splash_heading h4 {
+        font-size: 14px;
+    }
+
+    .singn_up button {
+        background-color: #fff;
+        font-size: 9px;
+        margin-left: 12px;
+    }
+
+    .exclusive_content p {
+        font-size: 14px;
+    }
+
+    .vibrant_imgsho img {
+        width: 100% !important;
+    }
+
+    .card-header h6 {
+        font-size: 16px;
+    }
+
+    .txt_vibrant h5 {
+        margin: 10px;
+        white-space: nowrap;
+    }
+
+    .veg_kabab {
+        margin: 10px 0 !important;
+    }
+
+    .card-header p {
+        font-size: 9px;
+    }
+
+    .navbar-nav {
+        align-items: start !important;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    .funsportwaterpark {
+        padding: 0px;
+    }
+
+    .futerehero {
+        margin-top: 100px;
+    }
+
+    .futerehero h2 {
+        font-size: 18px;
+        text-align: center;
+
+    }
+
+    .attraction_ope {
+        padding: 5px !important;
+        margin: -5px !important;
+
+    }
+
+    .vr {
+        display: none;
+    }
+
+    .screenshot_slider .owl-nav {
+        margin: 0px !important;
+    }
+
+    .nxt_ur h5 {
+        font-size: 10px;
+    }
+
+    .nxt_ur p {
+        font-size: 8px;
+        font-weight: 300;
+    }
+
+    .open_hour h5 {
+        font-size: 10px;
+    }
+
+    .open_hour p {
+        font-size: 8px;
+        font-weight: 300;
+    }
+
+    .tick_pr h5 {
+        font-size: 10px;
+    }
+
+    .heading_ride h2 {
+        text-align: center;
+    }
+
+    .heading_ride h6 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .tick_pr p {
+        font-size: 8px;
+        font-weight: 300;
+    }
+
+    .evey_plan h5 {
+        font-size: 10px;
+    }
+
+    .evey_plan p {
+        font-size: 8px;
+        font-weight: 300;
+    }
+
+    .arrow_btn button {
+        padding: 0px;
+    }
+
+
+    .user_btn {
+        margin-bottom: 20px;
+        white-space: nowrap;
+    }
+
+    .futerehero p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .jh_heading_park h2 {
+        font-size: 16px;
+        padding-bottom: 10px;
+
+    }
+
+    .jh_heading_park button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .ride_prt {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ride_prt img {
+        width: 50% !important;
+        margin: 0 5px;
+    }
+
+    .restarunt_heading p {
+
+        margin-top: 10px;
+    }
+
+
+    .jh_heading_park p {
+        padding: 0px;
+        font-size: 12px;
+    }
+
+
+    .ride_img {
+        margin: 10px 0;
+    }
+
+    .wekend_offer {
+        flex-direction: column !important;
+    }
+
+    .apply_copan img {
+        width: 60% !important;
+    }
+
+    .falv_img {
+        margin: 10px 0;
+    }
+
+    .social_mediaheading h2 {
+        font-size: 16px;
+    }
+
+    .new_something {
+        flex-direction: column;
+        white-space: nowrap;
+    }
+
+    .new_something button {
+        font-size: 10px;
+        white-space: nowrap;
+        margin-bottom: 10px;
+    }
+
+    .singn_up button {
+        white-space: nowrap;
+        font-size: 15px;
+    }
+
+    .splash_heading h4 {
+        font-size: 13px;
+    }
+
+    .splash_heading p {
+        font-size: 12px;
+    }
+
+    .anmol_sucess {
+        text-align: center;
+    }
+
+    .anmol_write {
+        text-align: center;
+    }
+
+
+    .anmol_write p {
+        font-size: 7px;
+    }
+
+    .exclusive_content h6 {
+        font-size: 12px;
+    }
+
+    .exclusive_content p {
+        font-size: 12px;
+    }
+
+    .update_what {
+        padding: 0px m !important;
+        flex-direction: column;
+    }
+
+    .giant_txt {
+        flex-direction: column !important;
+    }
+
+    .splash_tag {
+        text-align: center;
+    }
+
+    .body_spiralimg {
+        text-align: center !important;
+    }
+
+    .giant_img {
+        text-align: center;
+    }
+
+
+    .futter_left h2 {
+        font-size: 18px;
+    }
+
+    .futter_left p {
+        font-size: 14px;
+    }
+
+    .footer_right ul li {
+        font-size: 14px;
+    }
+
+    .filter_adventurepark a {
+        padding: 0px 6px;
+        width: 75px;
+        font-size: 12px;
+        margin: 5px 10px;
+        font-weight: 500;
+    }
+
+    .dining_vibrantimg h2 {
+        font-size: 20px;
+    }
+
+    .vibrant_imgsho {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+    .card_items {
+        flex-direction: column !important;
+    }
+
+    .reast_itemheading {
+        flex-direction: column !important;
+    }
+
+    .reast_itemheading h5 {
+        font-size: 16px;
+        margin-bottom: 10px !important;
+    }
+
+    .event_siding {
+        flex-direction: column !important;
+    }
+
+    .veg_group {
+        padding: 5px 0px;
+        margin-top: 10px;
+    }
+
+    .ride_border {
+        margin: 7px 0;
+    }
+
+    .veg_kabab {
+        margin: 10px 0 !important;
+    }
+
+    .veg_group button {
+        font-size: 12px;
+    }
+
+    .navbar-nav {
+        align-items: start !important;
+    }
+
+    .main_thrid p {
+        font-size: 10px;
+    }
+}
+
+/* finish media query */
