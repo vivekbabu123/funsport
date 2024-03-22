@@ -8,7 +8,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav align-items-center me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active menu_left" aria-current="page" href="#">Thrilling rides</a>
+                        <a class="nav-link active menu_left" aria-current="page" href="./ridecollection.php">Thrilling rides</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link menu_left" href="./ridecollection.php">Serene pool</a>

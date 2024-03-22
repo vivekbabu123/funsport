@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Payment_details</title>
     <!-- custom css link -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- bootstrap css link -->
@@ -242,7 +242,8 @@
                     <button type="submit" name="final_booking" class="btn text-white fw-bold">Confirm Booking</button>
                 </div>
             </div>
-            <input type="hidden" name="token" value="<?= $_SESSION['booking_token'] ?>">
+            <input type="hidden" name="token" value="<?= rand(10000000,99999999) ?>">
+
             </form>
         </div>
     </div>

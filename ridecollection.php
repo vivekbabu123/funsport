@@ -22,7 +22,7 @@
     <section class="water_parkadventure pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+            <div class="col-md-6">
                     <div class="haeding_water">
                         <h4>Discover Water Park Adventures</h2>
                     </div>
@@ -74,10 +74,11 @@
 
     <!-- boys div fun finish -->
     <!-- ridecollection_cirlce start -->
-    <section class="ride_circle py-4 position-relative">
+    <section class="ride_circle py-5 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-down"
+     data-aos-duration="3000">
                     <div class="hash_coll text-center">
                         <h2>#Ride <span>Collections</span></h2>
                     </div>
@@ -100,23 +101,25 @@
                 </div>
             </div>
             <div class="row gx-3">
-                <div class="col-md-6">
-                    <div class="p-3 ride_border">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
+                    <div class="p-3 ride_border h-100">
                         <div class="row ">
-                            <div class="col-md-7">
-                                <div class="giant_size">
+                         <div class="owl-carousel carousel-2">
+                             <div class="giant_size">
                                     <img src="./assets/image/ridecollection/img_1.png" alt="img" class="img-fluid">
 
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="giant_img">
+                         </div>
+                          <div class="giant_size">
                                     <img src="./assets/image/ridecollection/img_2.png" alt="img" class="img-fluid">
-                                    <img src="./assets/image/ridecollection/img_3.png" alt="img" class="img-fluid">
-                                </div>
 
                             </div>
-                            <div class="col-12">
+                            <div class="giant_size">
+                               <img src="./assets/image/ridecollection/img_3.png" alt="img" class="img-fluid">
+
+                            </div>
+                               
+                            </div>
+                          <div class="col-12">
                                 <div class="giant_txt d-flex justify-content-between">
                                     <div class="giant_heading">
                                         <h4>Giant Size of 12500 Sq. Ft.</h4>
@@ -134,21 +137,27 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 ride_border1" data-aos="fade-left" data-aos-duration="3000">
                     <div class="p-3 ride_border ">
                         <div class="row ">
-                            <div class="col-md-7">
+
+                                <div class="owl-carousel carousel-2">
                                 <div class="body_spiral">
                                     <img src="./assets/image/ridecollection/slide_1.png" alt="img" class="img-fluid">
 
                                 </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="body_spiralimg">
-                                    <img src="./assets/image/ridecollection/slide_2.png" alt="img" class="img-fluid">
-                                    <img src="./assets/image/ridecollection/slide_3.png" alt="img" class="img-fluid">
+                                <div class="body_spiral">
+                                <img src="./assets/image/ridecollection/slide_2.png" alt="img" class="img-fluid">
+
                                 </div>
-                            </div>
+                                <div class="body_spiral">
+                                <img src="./assets/image/ridecollection/slide_3.png" alt="img" class="img-fluid">
+
+                                </div>
+                                </div>
+
+
+                         
                             <div class="col-12">
                                 <div class="giant_txt d-flex justify-content-between align-items-center">
                                     <div class="bodyspitxt">
@@ -174,22 +183,25 @@
     <section class="opnebodylshape">
         <div class="container">
             <div class="row gx-3">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                     <div class="p-3 ride_border">
                         <div class="row ">
-                            <div class="col-md-7">
+                                <div class="owl-carousel carousel-2">
                                 <div class="giant_size">
                                     <img src="./assets/image/ridecollection/l_shape.png" alt="img" class="img-fluid">
 
                                 </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="giant_img">
-                                    <img src="./assets/image/ridecollection/lshape_2.png" alt="img" class="img-fluid">
-                                    <img src="./assets/image/ridecollection/lshape3.png" alt="img" class="img-fluid">
+                                <div class="giant_size">
+                                <img src="./assets/image/ridecollection/lshape_2.png" alt="img" class="img-fluid">
+
+                                </div>
+                                <div class="giant_size">
+                                <img src="./assets/image/ridecollection/lshape3.png" alt="img" class="img-fluid">
+
+                                </div>
                                 </div>
 
-                            </div>
+                           
                             <div class="col-12">
                                 <div class="giant_txt d-flex justify-content-between align-items-center">
                                     <div class="giant_heading">
@@ -211,19 +223,21 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right">
                     <div class="p-3 ride_border ">
                         <div class="row ">
-                            <div class="col-md-7">
-                                <div class="body_spiral">
+                            <div class="owl-carousel carousel-2">
+                            <div class="body_spiral">
                                     <img src="./assets/image/ridecollection/str_1.png" alt="img" class="img-fluid">
 
                                 </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="body_spiralimg">
-                                    <img src="./assets/image/ridecollection/str_2.png" alt="img" class="img-fluid">
-                                    <img src="./assets/image/ridecollection/str_3.png" alt="img" class="img-fluid">
+                                <div class="body_spiral">
+                                <img src="./assets/image/ridecollection/str_2.png" alt="img" class="img-fluid">
+
+                                </div>
+                                <div class="body_spiral">
+                                   <img src="./assets/image/ridecollection/str_3.png" alt="img" class="img-fluid">
+
                                 </div>
                             </div>
                             <div class="col-12">
@@ -251,22 +265,27 @@
     <section class="mountain_slide py-2">
         <div class="container">
             <div class="row gx-3">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                     <div class="p-3 ride_border">
                         <div class="row ">
-                            <div class="col-md-7">
-                                <div class="giant_size">
+                            <div class="owl-carousel carousel-2">
+                            <div class="giant_size">
                                     <img src="./assets/image/ridecollection/mou_1.png" alt="img" class="img-fluid">
 
                                 </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="giant_img">
-                                    <img src="./assets/image/ridecollection/mou_2.png" alt="img" class="img-fluid">
-                                    <img src="./assets/image/ridecollection/mou_3.png" alt="img" class="img-fluid">
-                                </div>
+                                <div class="giant_size">
+                                <img src="./assets/image/ridecollection/mou_2.png" alt="img" class="img-fluid">
 
+                                </div>
+                                <div class="giant_size">
+                                <img src="./assets/image/ridecollection/mou_3.png" alt="img" class="img-fluid">
+
+                                </div>
                             </div>
+
+
+
+                          
                             <div class="col-12">
                                 <div class="giant_txt d-flex justify-content-between align-items-center">
                                     <div class="giant_heading">
@@ -287,21 +306,24 @@
 
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                     <div class="p-3 ride_border ">
                         <div class="row ">
-                            <div class="col-md-7">
-                                <div class="body_spiral">
+                            <div class="owl-carousel carousel-2">
+                            <div class="body_spiral">
                                     <img src="./assets/image/ridecollection/clo_1.png" alt="img" class="img-fluid">
 
                                 </div>
-                            </div>
-                            <div class="col-md-5">
-                                <div class="body_spiralimg">
-                                    <img src="./assets/image/ridecollection/clo_2.png" alt="img" class="img-fluid">
-                                    <img src="./assets/image/ridecollection/clo_3.png" alt="img" class="img-fluid">
+                                <div class="body_spiral">
+                                <img src="./assets/image/ridecollection/clo_2.png" alt="img" class="img-fluid">
+
+                                </div>
+                                <div class="body_spiral">
+                                <img src="./assets/image/ridecollection/clo_3.png" alt="img" class="img-fluid">
+
                                 </div>
                             </div>
+                           
                             <div class="col-12">
                                 <div class="giant_txt d-flex justify-content-between align-items-center">
                                     <div class="bodyspitxt">
@@ -332,7 +354,7 @@
                     </div>
                 </div>
                 <div class="row gx-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row">
 
@@ -361,7 +383,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row">
 
@@ -388,7 +410,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mt-3">
+                    <div class="col-md-6 mt-3" data-aos="fade-right" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row">
                                 <div class="col-12">
@@ -414,7 +436,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 mt-3">
+                    <div class="col-md-6 mt-3" data-aos="fade-left" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row">
                                 <div class="col-12">
@@ -457,25 +479,28 @@
             <div class="row">
                 <div class="col-12">
                     <div class="heading_fifteen">
-                        <h6>Slides from 15ft Height</h6>
+                        <h3>Slides from 15ft Height</h3>
                     </div>
                 </div>
                 <div class="row gx-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                         <div class="p-3 ride_border ">
                             <div class="row ">
-                                <div class="col-md-7">
-                                    <div class="body_spiral">
+                                <div class="owl-carousel carousel-2">
+                                <div class="body_spiral">
                                         <img src="./assets/image/ridecollection/slide_1.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="body_spiralimg">
-                                        <img src="./assets/image/ridecollection/slide_2.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/slide_3.png" alt="img" class="img-fluid">
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/slide_2.png" alt="img" class="img-fluid">
+
+                                    </div>
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/slide_3.png" alt="img" class="img-fluid">
+
                                     </div>
                                 </div>
+                               
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="bodyspitxt">
@@ -491,22 +516,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row ">
-                                <div class="col-md-7">
-                                    <div class="giant_size">
+                                <div class="owl-carousel carousel-2">
+                                <div class="giant_size">
                                         <img src="./assets/image/ridecollection/spiral1.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="giant_img">
-                                        <img src="./assets/image/ridecollection/spiral2.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/spiral3.png" alt="img" class="img-fluid">
-                                    </div>
+                                    <div class="giant_size">
+                                    <img src="./assets/image/ridecollection/spiral2.png" alt="img" class="img-fluid">
 
+                                    </div>
+                                    <div class="giant_size">
+                                    <img src="./assets/image/ridecollection/spiral3.png" alt="img" class="img-fluid">
+                                    </div>
                                 </div>
+
+
+                            
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="giant_heading">
@@ -542,25 +570,29 @@
             <div class="row">
                 <div class="col-12">
                     <div class="heading_fifteen">
-                        <h6>Slides from 20ft Height</h6>
+                        <h3>Slides from 20ft Height</h3>
                     </div>
                 </div>
                 <div class="row gx-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                         <div class="p-3 ride_border ">
                             <div class="row ">
-                                <div class="col-md-7">
-                                    <div class="body_spiral">
+                                <div class="owl-carousel carousel-2">
+                                <div class="body_spiral">
                                         <img src="./assets/image/ridecollection/slide_1.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="body_spiralimg">
-                                        <img src="./assets/image/ridecollection/slide_2.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/slide_3.png" alt="img" class="img-fluid">
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/slide_2.png" alt="img" class="img-fluid">
+
+                                    </div>
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/slide_3.png" alt="img" class="img-fluid">
+
                                     </div>
                                 </div>
+
+                            
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="bodyspitxt">
@@ -576,22 +608,25 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row ">
-                                <div class="col-md-7">
-                                    <div class="giant_size">
+                                <div class="owl-carousel carousel-2">
+                                <div class="giant_size">
                                         <img src="./assets/image/ridecollection/spiral1.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="giant_img">
-                                        <img src="./assets/image/ridecollection/spiral2.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/spiral3.png" alt="img" class="img-fluid">
+                                    <div class="giant_size">
+                                    <img src="./assets/image/ridecollection/spiral2.png" alt="img" class="img-fluid">
+
+                                    </div>
+                                    <div class="giant_size">
+                                    <img src="./assets/image/ridecollection/spiral3.png" alt="img" class="img-fluid">
+
                                     </div>
 
                                 </div>
+                               
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="giant_heading">
@@ -614,21 +649,24 @@
 
                 </div>
                 <div class="row gx-3 mt-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                         <div class="p-3 ride_border ">
                             <div class="row ">
-                                <div class="col-md-7">
+                                    <div class="owl-carousel carousel-2">
                                     <div class="body_spiral">
                                         <img src="./assets/image/ridecollection/multilane.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="body_spiralimg">
-                                        <img src="./assets/image/ridecollection/multilane1.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/multilane2.png" alt="img" class="img-fluid">
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/multilane1.png" alt="img" class="img-fluid">
+
                                     </div>
-                                </div>
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/multilane2.png" alt="img" class="img-fluid">
+
+                                    </div>
+                                    </div>
+                             
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="bodyspitxt">
@@ -660,25 +698,30 @@
             <div class="row">
                 <div class="col-12 ">
                     <div class="heading_fifteen">
-                        <h6>Slides from 30ft Height</h6>
+                        <h3>Slides from 30ft Height</h3>
                     </div>
                 </div>
                 <div class="row gx-3">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
                         <div class="p-3 ride_border ">
                             <div class="row ">
-                                <div class="col-md-7">
+                                    <div class="owl-carousel carousel-2">
                                     <div class="body_spiral">
                                         <img src="./assets/image/ridecollection/mul.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="body_spiralimg">
-                                        <img src="./assets/image/ridecollection/mul1.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/mul2.png" alt="img" class="img-fluid">
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/mul1.png" alt="img" class="img-fluid">
+
                                     </div>
-                                </div>
+                                    <div class="body_spiral">
+                                    <img src="./assets/image/ridecollection/mul2.png" alt="img" class="img-fluid">
+
+                                    </div>
+                                    </div>
+
+
+                              
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="bodyspitxt">
@@ -694,22 +737,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
                         <div class="p-3 ride_border">
                             <div class="row ">
-                                <div class="col-md-7">
-                                    <div class="giant_size">
+                                <div class="owl-carousel carousel-2">
+                                <div class="giant_size">
                                         <img src="./assets/image/ridecollection/pen.png" alt="img" class="img-fluid">
 
                                     </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="giant_img">
-                                        <img src="./assets/image/ridecollection/pen1.png" alt="img" class="img-fluid">
-                                        <img src="./assets/image/ridecollection/pen3.png" alt="img" class="img-fluid">
-                                    </div>
+                                    <div class="giant_size">
+                                    <img src="./assets/image/ridecollection/pen1.png" alt="img" class="img-fluid">
 
+                                    </div>
+                                    <div class="giant_size">
+                                    <img src="./assets/image/ridecollection/pen3.png" alt="img" class="img-fluid">
+
+                                    </div>
                                 </div>
+                               
                                 <div class="col-12">
                                     <div class="giant_txt d-flex justify-content-between align-items-center">
                                         <div class="giant_heading">
@@ -741,11 +786,14 @@
     <section class="ride_circle py-5 position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up"
+     data-aos-duration="3000">
                     <div class="hash_coll text-center">
                         <h2 class="mb-4">#Rain <span>Dance</span></h2>
                     </div>
-                    <div class="redgirl_img pt-3">
+                    <div class="redgirl_img pt-3" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <img src="./assets/image/ridecollection/redgirl.png" alt="img" class="img-fluid">
                         <h4>Dance Floor with 40ft dancing platform</h4>
                         <p>Get ready to groove and splash at FunSpot Waterpark's Rain Dance! 🌧️💃 Feel the rhythm on our massive Dance Floor, complete with a 40ft dancing platform where you can unleash your desi moves in full-on masti mode. Let the beats drop as you dance under the refreshing rain showers, creating memories that'll make you go 'Wah! Kya Mazaa Hai!' Whether you're a Bollywood ke deewane or just love to shake a leg, our Rain Dance area promises non-stop fun and paisa vasool entertainment for all ages. So grab your friends and family, and come join the ultimate Hinglish dance party at FunSpot!</p>
@@ -763,11 +811,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="wavepool_heading text-center mb-3">
+                    <div class="wavepool_heading text-center mb-3"data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                         <h2>Wave Pool</h2>
 
                     </div>
-                    <div class="wavepool_img">
+                    <div class="wavepool_img" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
                         <img src="./assets/image/ridecollection/wavepool.png" alt="img" class="img-fluid">
                         <h2>Huge wave pool of 6000 Sq. Ft.</h2>
                         <p>Dive into ocean-sized fun at FunSpot Waterpark's Massive Wave Pool! Spanning a whopping 6000 sq. ft., this aquatic paradise delivers waves of excitement for all ages. Feel the thrill as towering waves crash against the shore, creating the perfect beach-like atmosphere right in the heart of the park. Whether you're a seasoned surfer or just looking to cool off, our Huge Wave Pool offers endless hours of splashing fun and relaxation. So grab your swimsuit and sunscreen, and get ready to ride the waves at FunSpot!</p>
@@ -913,6 +965,7 @@
             $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 10,
+                autoplay:true,
                 responsiveClass: true,
                 responsive: {
                     0: {
@@ -931,6 +984,22 @@
                 }
             });
         });
+        $('.carousel-2').owlCarousel({
+                loop:true,
+                margin:10,
+                autoplay:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:2
+                    }
+                }
+            });
     </script>
 </body>
 

@@ -1,52 +1,22 @@
 <?php
 session_start();
-include '../db.php';
-
-if (!isset($_SESSION["admin_username"])) {
-    session_destroy();
-    header("Location: ./");
-    exit; // Stop further execution
-}
+include './db.php';
 
 // Assuming $conn is your database connection object
-$token = $_GET['token'];
+$token = base64_decode($_GET['token']);
 $sql_select = "SELECT * FROM booking_details WHERE booking_token='$token'";
 $result = $conn->query($sql_select);
 $row = $result->fetch_assoc();
-
-
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>login</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
-    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thank you</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
         .card.recent-sales {
@@ -109,14 +79,11 @@ $row = $result->fetch_assoc();
         }
     </style>
 </head>
-
 <body>
-
-    <?php include './top_sidebar.php'; ?>
-
-    <main id="main" class="main">
-
-        <section class="section dashboard">
+    <!-- header start -->
+        <?php include "header.php"?>
+    <!-- header footer -->
+    <section class="section dashboard">
             <div class="row">
 
                 <!-- Left side columns -->
@@ -150,7 +117,7 @@ $row = $result->fetch_assoc();
                                                     </ul>
                                                 </div>
                                                 <div class="ticket3__price">
-                                                    <img src="./assets/image/qrq.png" alt="QR Code">
+                                                <img src="./admin/assets/image/qrq.png" alt="QR Code">
                                                 </div>
                                             </div>
                                         </div>
@@ -168,10 +135,17 @@ $row = $result->fetch_assoc();
             </div>
         </section>
 
-    </main><!-- End #main -->
 
-    <?php include './admin_footer.php'; ?>
 
+
+
+<!-- footer start -->
+<?php include "footer.php"?>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
 </html>

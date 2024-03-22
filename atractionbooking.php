@@ -59,18 +59,19 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="form-group">
-                                        <input type="date" id="date" name="date">
+                                    <input type="date" id="date" value="<?= date('Y-m-d') ?>" name="date" min="<?= date('Y-m-d') ?>">
+
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <!-- <div class="col-md-4">
                                     <div class="form-group">
                                         <input type="time" id="time" name="time">
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-4">
                                     <div class="form-group d-flex align-items-center">
                                         <span><img src="./assets/image/user.png" alt="img" class="img-fluid me-2"></span>
-                                        <input type="number" id="people" name="people" min="1" class="form-control ml-2">
+                                        <input type="number" id="people" name="people" min="1" class="form-control ml-2" required>
                                     </div>
                                 </div>
 
@@ -136,55 +137,16 @@
 
 
     <script>
-        var generatedToken = '';
-
-        // function generateToken() {
-        //     var chars = '0123456789';
-        //     var tokenLength = 8;
-        //     var token = '';
-        //     for (var i = 0; i < tokenLength; i++) {
-        //         var randomIndex = Math.floor(Math.random() * chars.length);
-        //         token += chars.charAt(randomIndex);
-        //     }
-        //     generatedToken = token; // Store the generated token
-        //     alert('Your booking token is: ' + token);
-        // }
-
-
-        function generateToken() {
-            var chars = '0123456789';
-            var tokenLength = 8;
-            var token = '';
-            for (var i = 0; i < tokenLength; i++) {
-                var randomIndex = Math.floor(Math.random() * chars.length);
-                token += chars.charAt(randomIndex);
-            }
-            // Store the generated token in a PHP session
-            $.ajax({
-                url: 'store_token.php',
-                method: 'POST',
-                data: {
-                    token: token
-                },
-                success: function(response) {
-                    alert('Your booking token is: ' + token);
-                }
-            });
-        }
-
 
         function validateForm() {
             var date = document.getElementById('date').value;
-            var time = document.getElementById('time').value;
             var people = document.getElementById('people').value;
             var group = document.getElementById('group').value;
 
-            if (date === '' || time === '' || people === '' || group === '') {
+            if (date === '' || people === '' || group === '') {
                 alert('Please fill in all fields');
                 return false;
             }
-
-            generateToken();
 
 
             return false;

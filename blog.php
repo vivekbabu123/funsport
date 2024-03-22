@@ -114,6 +114,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog_number">
+                        <hr>
                         <h1>#01</h1>
                     </div>
                 </div>
@@ -147,6 +148,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog_number">
+                        <hr>
                         <h1>#02</h1>
                     </div>
                 </div>
@@ -183,6 +185,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog_number">
+                        <hr>
                         <h1>#03</h1>
                     </div>
                 </div>
@@ -224,6 +227,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog_number">
+                        <hr>
                         <h1>#04</h1>
                     </div>
                 </div>
@@ -265,6 +269,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog_number">
+                        <hr>
                         <h1>#05</h1>
                     </div>
                 </div>
@@ -381,9 +386,13 @@
                     </div>
                     <div class="col-6 col-md-3 col-lg-3 col-xl-3">
                         <div class="user_item">
-                            <span class="user_plus p-3 rounded">
-                                <img src="./assets/image/qr.png" alt="img" class="img-fluid" style="width: 50px" />
-                            </span>
+                        <span class="user_plus p-3 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: ;msFilter:;">
+                  <path d="M4 4h4.01V2H2v6h2V4zm0 12H2v6h6.01v-2H4v-4zm16 4h-4v2h6v-6h-2v4zM16 4h4v4h2V2h-6v2z"></path>
+                  <path d="M5 11h6V5H5zm2-4h2v2H7zM5 19h6v-6H5zm2-4h2v2H7zM19 5h-6v6h6zm-2 4h-2V7h2zm-3.99 4h2v2h-2zm2 2h2v2h-2zm2 2h2v2h-2zm0-4h2v2h-2z">
+                  </path>
+                </svg>
+              </span>
                             <div class="user_btn mt-3">
                                 <button class="btn">Download your Ticket</button>
                             </div>

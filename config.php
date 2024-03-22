@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["booking_step1"])) {
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["final_booking"])) {
     // Get the form data
-    $booking_token = $_SESSION['booking_token'];
+    $booking_token = $_POST['token'];
     $ticket_holder_name = $_POST['ticket_holder_name'];
     $full_name = $_POST['full_name'];
     $email = $_POST['email'];
@@ -38,9 +38,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["final_booking"])) {
     $sql = "INSERT INTO booking_details (booking_token, ticket_holder_name, full_name, email, mob_number, cardholder_name, card_number, expiry_date, cvv_number, booking_date, booking_time, booking_people, booking_group, final_amt)
             VALUES ('$booking_token', '$ticket_holder_name', '$full_name', '$email', '$mob_number', '$cardholder_name', '$card_number', '$expiry_date', '$cvv_number', '$booking_date', '$booking_time', '$booking_people', '$booking_group','$final_amt')";
     if ($conn->query($sql) === TRUE) {
-        echo "Booking details stored successfully!";
+        // echo "Booking details stored successfully!";
+        echo '<script>location.href="thankyou.php?token='.base64_encode($booking_token).'"</script>';
+        
     } else {
         echo "Error storing booking details: " . $conn->error;
     }
 }
 // get the from data into database 
+?>
+

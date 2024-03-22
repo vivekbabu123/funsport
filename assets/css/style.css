@@ -267,13 +267,14 @@ body {
     color: #033aff !important;
 }
 
-.owl-carousel .owl-dots.disabled,
+/* .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
     display: block !important;
     position: absolute;
-    top: 30px;
-    right: 0;
-}
+
+
+
+} */
 
 .jh_heading_park {
     padding: 20px;
@@ -765,12 +766,12 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .kids_pools h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .kids_pools span {
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -1358,6 +1359,10 @@ input[type="number"]::-webkit-outer-spin-button {
 
     .main_thrid p {
         font-size: 10px;
+    }
+
+    .ride_border1 {
+        margin-top: 10px !important;
     }
 }
 

@@ -66,7 +66,7 @@ if (isset($_POST["check_admin_login"])) {
 
               <div class="d-flex justify-content-center py-4">
                 <a href="index.html" class="logo d-flex align-items-center w-auto">
-                  <img src="../assets/image/funlogo.png" alt="img" class="img-fluid">
+                  <img src="../assets/image/paymentlogo.png" alt="img" class="img-fluid">
 
 
                 </a>
